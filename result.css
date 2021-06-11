@@ -1,0 +1,61 @@
+body{
+    background-image: url("Untitled.png");
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-family: algerian;
+    font-size: 30px;
+    text-decoration: none;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar{
+    background: rgba(7, 3, 29, 0.432);
+    padding-bottom:0.5px;
+    padding-top: 0.5px;
+
+}
+.navbar ul li a:hover{
+    color: yellow;
+    border-bottom: 5px solid yellow;
+
+}
+h1{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: algerian;
+    background-color: rgba(0, 0, 0, 0.301);
+    color: white;
+    text-align: center;
+}
+#year{
+    position: relative;
+    left: 615px; 
+    top: -15px;
+    border: 2px solid black;
+    border-radius: 5px 5px 5px 5px;
+    outline: 1px solid white;
+    width: 100px;
+}
+#sub{
+    position: relative;
+    left: 530px;
+    top: 10px;
+}
+
+.otp{
+    text-align: center;
+    color:white;
+    padding-left:10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: rgba(7, 3, 29, 0.432);
+}
+
+

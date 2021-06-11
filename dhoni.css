@@ -1,0 +1,48 @@
+body{
+    background-image: url("10146.jpg");
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-family: algerian;
+    font-size: 30px;
+    text-decoration: none;
+}
+.navbar{
+    background: rgba(7, 3, 29, 0.432);
+    padding-bottom:0.5px;
+    padding-top: 0.5px;
+}
+ul li{
+    list-style: none;
+}
+ul li a:hover{
+    border-bottom: 5px solid yellow;
+    color: yellow;
+
+}
+h3{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: algerian;
+    color: white;
+    text-align: center;
+}
+h1{
+    position: relative;
+    top: 250px;
+    color: black;
+    font-family: algerian;
+    font-size: 90px;
+}
+img{
+    width: 600px;
+    height: 300px;
+    position: relative;
+    top: 150px;
+}
